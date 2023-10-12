@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigations</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="JS/bootstrap.min.js" ></script>
+   
+   
+  </head>
+  <body>
+    
+    <!-- Nav Menus -->
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+    <!-- Aligned Nav
+      Add the .justify-content-center class to center the nav, and the .justify-content-end class to right-align the nav. -->
+
+    <!-- Centered nav -->
+    <!-- <ul class=""> -->
+    <ul class="nav justify-content-start">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+    <!-- Right-aligned nav -->
+    <!-- <ul class=""> -->
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+    <!-- End-aligned nav -->
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+    <!-- Tabs -->
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Active</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+    <!-- Pills with Dropdown -->
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Active</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a data-bs-toggle="dropdown " class="nav-link dropdown-toggle" href="#"
+          >Dropdown</a
+        >
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item">Link 1</a></li>
+          <li><a href="#" class="dropdown-item">Link 2</a></li>
+          <li><a href="#" class="dropdown-item">Link 3</a></li>
+        </ul>
+
+        <!-- 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</li> -->
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Disabled</a>
+      </li>
+    </ul>
+
+    <!-- <ul >
+            <li >
+              <a  aria-current="page" href="#">Active</a>
+            </li>
+            <li >
+              <a  data-bs-toggle="" href="#" role="button" aria-expanded="false">Dropdown</a>
+              <ul >
+                <li><a  href="#">Action</a></li>
+                <li><a  href="#">Another action</a></li>
+                <li><a  href="#">Something else here</a></li>
+                <li><hr></li>
+                <li><a  href="#">Separated link</a></li>
+              </ul>
+            </li>
+            <li >
+              <a  href="#">Link</a>
+            </li>
+            <li >
+              <a  aria-disabled="true">Disabled</a>
+            </li>
+          </ul> -->
+
+    <!-- Toggleable / Dynamic Tabs -->
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a data-bs-toggle="tab" href="#home" class="nav-link active">Home</a>
+      </li>
+      <li>
+        <a data-bs-toggle="tab" href="#menu1" class="nav-link">Menu 1</a>
+      </li>
+      <li>
+        <a data-bs-toggle="tab" href="#menu2" class="nav-link">Menu 2</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+    <div  id="home" class="tab-pane container active">
+      Page1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis dolor amet maiores suscipit iste esse! Optio reprehenderit repellat voluptatibus!
+    </div>
+    <div  id="menu1" class="tab-pane container fade">
+      Page2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis sit accusamus magni iste quisquam commodi quod rerum, tempora consectetur! Quidem?.
+    </div>
+    <div id="menu2" class="tab-pane container fade">
+      Page3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas a atque molestias corrupti, cupiditate ad aliquam laborum provident qui.
+    </div>
+  </div>
+  </body>
+</html>
